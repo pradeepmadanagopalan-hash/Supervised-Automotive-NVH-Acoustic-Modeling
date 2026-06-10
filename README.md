@@ -183,7 +183,7 @@ Key takeaways from the pipeline are as follows
     </td>
 
   <td align="center" width="50%">
-    <img src="Resources/Results-1.PNG" height="300px"/><br>
+    <img src="Resources/Results-1.PNG" style="height:300px; width:auto; object-fit:contain;" /><br>
     <sub><b>Sound Absorption Coefficient (0–1)</b>: Experimental and model-predicted values (Random Forest & Decision Tree) show close agreement at 6 central frequencies</sub>
   </td>
   </tr>
