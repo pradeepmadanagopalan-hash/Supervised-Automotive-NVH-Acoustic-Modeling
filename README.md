@@ -1,6 +1,25 @@
 # Automotive-NVH-Acoustic-Materials-ML
 
-⭐ **1. Introduction**
+[ML Tool] Data-driven supervised machine learning framework to predict frequency-dependent sound absorption of automotive acoustic foam (Polyurethene) materials.
+
+# Contents
+⭐ [ 1. Introduction](#-1-introduction) <br>
+🧩 [ 2. Challenge](#-2-challenge) <br>
+🎯 [ 3. Objectives](#-3-objectives) <br>
+🛠  [ 4. Tech Stack](#-4-tech-stack) <br>
+🧱 [ 5. Test Sample Structure](#-5-test-sample-structure-4-layer-sandwich-configuration) <br>
+📊 [ 6. Data Collection for ML Model Training](#-6-data-collection-for-ml-model-training--lab-tests) <br>
+📊 [ 7. Final Dataset for ML](#-7-final-dataset-for-ml) <br>
+🧠 [ 8. Machine Learning Pipeline Overview](#-8-machine-learning-pipeline-overview) <br>
+📈 [ 9. Sample Visualizations](#-9-sample-visualizations) <br>
+📊 [ 10. Project Outcomes - Key Numbers](#-10-project-outcomes---key-numbers) <br>
+🧭 [ 11. Future Extensions](#-11-future-extension-industry-relevance) <br>
+⚠️ [ 12. Data Note](#%EF%B8%8F-12-data-note) <br>
+👨‍💻 [ 13. Skills Demonstrated](#%E2%80%8D-13-skills-demonstrated) <br>
+
+---
+
+# ⭐ **1. Introduction**
 
 Lightweight porous foams are widely used in automotive interiors for noise reduction, passenger comfort, and vibration damping. Components such as headliners, door panels, dashboard insulation, wheel arch liners, and cabin acoustic treatments rely on carefully engineered foam structures to achieve targeted sound absorption performance across a broad frequency range.
 
@@ -13,7 +32,7 @@ This project investigates the relationship between the physical characteristics 
 
 ---
 
-🧩 **2. Challenge**
+# 🧩 **2. Challenge**
 
 Predicting the acoustic performance of porous materials such as polyurethane foams is a complex task due to the strong coupling between microstructural properties and frequency-dependent sound absorption behavior.
 
@@ -28,7 +47,7 @@ Key challenges include:
 
 ---
 
-🎯 **3. Objectives**
+# 🎯 **3. Objectives**
 
 This project focuses on developing a machine learning-based framework to predict the sound absorption performance of polyurethane-based composite foams for automotive acoustic applications.
 
@@ -41,7 +60,7 @@ Key objectives include:
 
 ---
 
-🛠 4. **Tech Stack**
+# 🛠 4. **Tech Stack**
 
 Key techniques used in the prediction of acoustic performance of polyurethene based composite foams include:
 
@@ -54,7 +73,7 @@ Key techniques used in the prediction of acoustic performance of polyurethene ba
 
 ---
 
-🧱 5. **Test Sample Structure: 4-Layer Sandwich Configuration**
+# 🧱 5. **Test Sample Structure: 4-Layer Sandwich Configuration**
 
 Each experimental specimen is constructed as a four-layer sandwich structure, where each layer corresponds to a specific foam type defined by its material composition (e.g., PU foam with varying natural fiber content).
 
@@ -75,7 +94,7 @@ The overall sample configuration is represented using a four-character code (e.g
 
 ---
 
-📊 **6. Data Collection for ML Model Training – Lab Tests**
+# 📊 **6. Data Collection for ML Model Training – Lab Tests**
 
 The dataset used for machine learning model development is obtained from controlled laboratory experiments on polyurethane-based composite foams reinforced with natural fillers such as sawdust and rice husk.
 
@@ -102,7 +121,7 @@ The experimental data captures both material structural properties and acoustic 
 
 ---
 
-📊 **7. Final Dataset for ML**
+# 📊 **7. Final Dataset for ML**
 
 🧩 Independent Features (Input Variables)
 * Thickness (×10⁻³ m) – Physical thickness of the foam sample, which influences sound wave propagation and energy dissipation.
@@ -115,7 +134,7 @@ The experimental data captures both material structural properties and acoustic 
 
 ---
 
-🧠 **8. Machine Learning Pipeline Overview**
+# 🧠 **8. Machine Learning Pipeline Overview**
 
 The following flowchart summarizes the complete workflow from experimental data acquisition to final model selection and validation.
 
@@ -172,7 +191,7 @@ Key takeaways from the pipeline are as follows
 
 ---
 
-📈 **9. Sample Visualizations**
+# 📈 **9. Sample Visualizations**
 
 
 <table>
@@ -204,7 +223,7 @@ Key takeaways from the pipeline are as follows
 
 ---
 
-📊 **10. Project Outcomes - Key Numbers**
+# 📊 **10. Project Outcomes - Key Numbers**
 
 - 🚀 **6** - Total number of ML regression models evaluated (including baseline and ensemble methods).
 
@@ -217,13 +236,13 @@ Key takeaways from the pipeline are as follows
 - ⚡ **2+ hours → 10 seconds** - Reduction in time required to estimate Sound Absorption Coefficient (SAC), from experimental measurement to ML-based prediction.
 
 ---
-🧭 **11. Future Extension/ Industry Relevance**
+# 🧭 **11. Future Extension/ Industry Relevance**
 
 - Material Design Optimization – Use the trained model to virtually screen new foam compositions and sandwich configurations, reducing the need for extensive experimental testing.
 
 ---
 
-⚠️ **12. Data Note**
+# ⚠️ **12. Data Note**
 
 This project is based on experimentally generated datasets from Vellore Institute of Technology, Chennai.
 A subset of this work has been published in Data Science and Data Analytics: Opportunities and Challenges (CRC Press).
@@ -231,7 +250,7 @@ Non-proprietary data associated with the publication have been made publicly ava
 
 ---
 
-👨‍💻 **13. Skills Demonstrated**
+# 👨‍💻 **13. Skills Demonstrated**
 
 Through this project, I demonstrate my ability to work with
 
